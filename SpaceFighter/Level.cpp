@@ -199,6 +199,7 @@ void Level::SpawnExplosion(GameObject *pExplodingObject)
 	const float dramaticEffect = 2.2f;
 	const float scale = scaleToObjectSize * dramaticEffect;
 	pExplosion->Activate(pExplodingObject->GetPosition(), scale);
+	
 }
 
 
